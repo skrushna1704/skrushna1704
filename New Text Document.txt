@@ -1,0 +1,183 @@
+ body {
+        color: rgb(49, 125, 218);
+        margin: 0px;
+        padding: 0px;
+        background: url("maing.jpg");
+        background-repeat: no-repeat;  
+        /* background-position: 0% 0%; */
+        background-size: 100% 125%;
+      }
+      .left {
+        display: inline-block;
+        position: absolute;
+        left: 33px;
+        top: 20px;
+      }
+      .center {
+        dispaly: block;
+        width: 33%;
+        margin: 20px auto;
+      }
+      .right {
+        display: inline-block;
+        position: absolute;
+        right: 33px;
+        top: 20px;
+      }
+      .navbar {
+        display: inline-block;
+      }
+      .navbar li {
+        display: inline-block;
+        font-size: 22px;
+      }
+      .navbar li a {
+        text-decoration: none;
+        padding: 20px 15px;
+      }
+      .left img {
+        width: 90px;
+      }
+      .left div {
+        text-align: center;
+      }
+      .btn {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 2px 2px;
+        background-color:#67a52a;
+      }
+      .btn:hover {
+        background-color: rgb(144, 150, 150);
+      }
+      .container {
+        border: 2px solid green;
+        margin: 100px 30px;
+        padding: 50px 50px;
+        border-radius: 18px;
+        width: 33%;
+      }
+      .formGroup input{
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          text-align: center;
+          display:block;
+          width: 250px;
+          margin: 3px;
+          padding: 2px;
+          border:3px solid black;
+          font-size: 15px;
+          border-radius: 8px;
+
+      }
+      .container button{
+        display:block;
+        witdh:30px; 
+        margin: auto;
+        
+      }
+      a:hover{
+          background-color: rgb(155, 161, 161);
+      }
+      li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 18px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}  
+
+
+
+
+expert:-
+
+
+body {
+        background: url("gym6.jpg");
+        background-repeat: no-repeat;
+        color: #f3e0d2;
+        font-family: "Ubuntu", sans-serif;
+      }
+      .container {
+        /* border: 3px solid red; */
+        margin-right: 35px;
+        display: flex;
+      }
+      .first,
+      .second,
+      .third,
+      .fourth {
+        border: 2px solid rgb(0, 255, 13);
+        border-radius: 20px;
+        box-shadow: 5px 5px rebeccapurple;
+      }
+      img {
+        width: 420px;
+        height: 400px;
+      }
+      p {
+        font-size: 30px;
+      }
+      .btn {
+        font-size: 20px;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 2px 2px;
+        background-color: #67a52a;
+      }
+      .btn:hover {
+        background-color: rgb(144, 150, 150);
+      }
+      h2 {
+        color: #f2f9f2;
+      }
+
+
+enquirycss:
+
+body{
+            background: url("gym6.jpg");
+            background-repeat: no-repeat;
+            text-align: center;
+            color:white;
+        }
+      .container {
+        border: 3px solid green;
+        border-radius: 20px;
+        width: 50%;
+        height:50%
+      }
+      .groupform{
+          margin: 5px;
+          padding: 20px;
+      }

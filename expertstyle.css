@@ -1,0 +1,42 @@
+body {
+  background: url("gym6.jpg");
+  background-repeat: no-repeat;
+  color: #f3e0d2;
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  /* border: 3px solid red; */
+  margin-right: 35px;
+  display: flex;
+}
+.first,
+.second,
+.third,
+.fourth {
+  border: 2px solid rgb(0, 255, 13);
+  border-radius: 20px;
+  box-shadow: 5px 5px rgb(247, 247, 247);
+}
+img {
+  width: 420px;
+  height: 400px;
+}
+p {
+  font-size: 30px;
+}
+.btn {
+  font-size: 20px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 2px 2px;
+  background-color: #67a52a;
+}
+.btn:hover {
+  background-color: rgb(144, 150, 150);
+}
+h2 {
+  color: #f2f9f2;
+}
